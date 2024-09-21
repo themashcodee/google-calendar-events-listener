@@ -12,7 +12,8 @@ const auth = new google.auth.GoogleAuth({
 // Create the Google Calendar instance
 const calendar = google.calendar({ version: "v3", auth })
 
-const calendar_id = "codeemash@gmail.com"
+// PUT YOUR EMAIL ID
+const calendar_id = "youremail@gmail.com"
 const ngrok_tunnel_url = "run npm run ngrok to ge the tunnel url"
 
 // IT SHOULD COME FROM THE REDIS OR DB OR SOMEWHERE ELSE IN PRODUCTION, BUT JUST PUTTING HERE ONLY FOR TESTING
