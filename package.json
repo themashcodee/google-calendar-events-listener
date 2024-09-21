@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "express": "^4.21.0",
+    "googleapis": "^144.0.0"
+  },
+  "name": "google-calendar-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
